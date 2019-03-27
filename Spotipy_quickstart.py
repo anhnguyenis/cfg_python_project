@@ -1,13 +1,12 @@
 import spotipy
+import spotipy.util as util
+from config import CLIENT_ID, CLIENT_SECRET, PLAY_LIST, USER
+import random
 
-lz_uri = 'spotify:artist:36QJpDe2go2KgaRleHCDTp'
+token = util.oauth2.SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 
-spotify = spotipy.Spotify()
-results = spotify.artist_top_tracks(lz_uri)
+cache_token = token.get_access_token()
+spotify = spotipy.Spotify(cache_token)
 
-for track in results['tracks'][:10]:
-    print 'track    : ' + track['name']
-    print 'audio    : ' + track['preview_url']
-    print 'cover art: ' + track['album']['images'][0]['url']
-
+results1 = spotify.user_playlist_tracks(USER, PLAY_LIST, limit=100, offset=0)
 
