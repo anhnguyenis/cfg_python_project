@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c63472-dc64-48dc-a771-695b1b1772e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cfg_python_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cfg_python_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spotipy_quickstart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spotipy_quickstart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +17,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cfg_python_project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spotipy_quickstart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="7" column="97" lean-forward="true" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home_html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/main.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/food2fork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,13 +49,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing.py">
+        <entry file="file://$PROJECT_DIR$/home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#108#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -78,8 +92,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,20 +104,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Testing.py" />
-        <option value="$PROJECT_DIR$/food2fork.py" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/HTML/homepage.html" />
         <option value="$PROJECT_DIR$/colours_html.py" />
-        <option value="$PROJECT_DIR$/Spotipy_quickstart.py" />
-        <option value="$PROJECT_DIR$/home_html.py" />
         <option value="$PROJECT_DIR$/HTML/home.html" />
+        <option value="$PROJECT_DIR$/../cfg-python/venv/Testing_f2f.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/testing_themealdb.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/get_pokemon.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/Testing_f2f.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/dictionary.py" />
+        <option value="$PROJECT_DIR$/food2fork.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/spotipy_tesing.py" />
+        <option value="$PROJECT_DIR$/../cfg-python/spotipy_testing.py" />
+        <option value="$PROJECT_DIR$/home_html.py" />
+        <option value="$PROJECT_DIR$/Spotipy_quickstart.py" />
+        <option value="$PROJECT_DIR$/templates/About.html" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/templates/signup.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/home.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="660" />
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
-    <option name="width" value="780" />
+    <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,23 +149,29 @@
             <path>
               <item name="cfg_python_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="cfg_python_project" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cfg_python_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cfg_python_project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HTML" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../cfg-python" />
+      <recent name="$PROJECT_DIR$/HTML" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.colours_html">
+  <component name="RunManager" selected="Python.home_html">
     <configuration name="Spotipy_quickstart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cfg_python_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,19 +229,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="colours_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cfg_python_project" />
+    <configuration name="flask_home" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cfg-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cfg-python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_html.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cfg-python/flask_home.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,17 +271,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="home_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cfg_python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.colours_html" />
-        <item itemvalue="Python.Spotipy_quickstart" />
+        <item itemvalue="Python.home_html" />
         <item itemvalue="Python.food2fork" />
+        <item itemvalue="Python.Spotipy_quickstart" />
         <item itemvalue="Python.Testing" />
+        <item itemvalue="Python.flask_home" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -258,108 +313,225 @@
       <option name="presentableId" value="Default" />
       <updated>1553186884839</updated>
     </task>
+    <task id="LOCAL-00001" summary="routes added to html Homepage, About page and Signup page">
+      <created>1554298562005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298562005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="routes added to html Homepage, About page and Signup page">
+      <created>1554298649799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298649799</updated>
+    </task>
+    <task id="LOCAL-00003" summary="routes added to html Homepage, About page and Signup page&#10;&#10;API recipe call function added">
+      <created>1554298682647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298682647</updated>
+    </task>
+    <task id="LOCAL-00004" summary="routes added to html Homepage, About page and Signup page&#10;&#10;Spotipy call function added">
+      <created>1554298716656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298716656</updated>
+    </task>
+    <task id="LOCAL-00005" summary="routes added to html Homepage, About page and Signup page">
+      <created>1554298727877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298727877</updated>
+    </task>
+    <task id="LOCAL-00006" summary="routes added to html Homepage, About page and Signup page">
+      <created>1554298737844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554298737844</updated>
+    </task>
+    <task id="LOCAL-00007" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added">
+      <created>1554303210732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554303210732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html">
+      <created>1554304039780</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554304039780</updated>
+    </task>
+    <task id="LOCAL-00009" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html">
+      <created>1554304070959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554304070959</updated>
+    </task>
+    <task id="LOCAL-00010" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added">
+      <created>1554305564734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554305564734</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="23" width="780" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24901186" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77304965" visible="true" weight="0.1761804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.22695035" side_tool="true" weight="0.1761804" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934125" visible="true" weight="0.27943262" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989429" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4947146" weight="0.3460993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.38723403" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50065875" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50528544" side_tool="true" weight="0.3460993" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24901186" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934125" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50065875" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/amico-tutor" />
+    </ignored-roots>
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;&#10;API recipe call function added" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;&#10;Spotipy call function added" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../cfg-python/get_pokemon.py">
+    <entry file="file://$PROJECT_DIR$/HTML/homepage.html" />
+    <entry file="file://$PROJECT_DIR$/../cfg-python/cat_food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cfg-python/homework_session3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cfg-python/dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cfg-python/testing_themealdb.py" />
+    <entry file="file://$PROJECT_DIR$/../cfg-python/get_pokemon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cfg-python/spotipy_testing.py" />
+    <entry file="file://$PROJECT_DIR$/../cfg-python/Testing_f2f.py" />
+    <entry file="file://$PROJECT_DIR$/../cfg-python/templates/colour.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cfg-python/flask_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food2fork.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotipy_quickstart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/food2fork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_html.py">
+    <entry file="file://$PROJECT_DIR$/home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#108#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="97" lean-forward="true" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>

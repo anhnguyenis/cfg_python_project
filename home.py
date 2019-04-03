@@ -1,8 +1,9 @@
 from flask import Flask, render_template                        #The render template function has been added
 from Spotipy_quickstart import get_artist
+from food2fork import get_recipes
 app = Flask(__name__)                                           #name of module
 
-recipes = [
+recipes = [                                                     #made up list for testing
     {
         'author': 'JK Rowling',
         'title': 'Chicken in soup',
@@ -16,12 +17,14 @@ recipes = [
 @app.route('/')                                                 #This is the flask route to the Home page
 @app.route('/home/')                                            #Both these routes return back to the Home page by the same function
 def home():
-    #return '<h1>This is the Home page!</h1>'
     return render_template('home.html', recipes=recipes)        #This returns the render template function for the Home page. See home.html file
+def get_recipes():
+    recipes=get_recipes()
+    return render_template('home.html', recipes=recipes)
+
 
 @app.route('/about/')                                           #This is the flask route to the About page
 def about():
-    #return '<h1>This is the About page</h1>'
     return render_template('about.html', title='About')         #This returns the render template function for the About page. See about.html file
 
 @app.route('/signup/')
@@ -31,6 +34,7 @@ def sign_up():
 
 if __name__=='__main__':
     app.run(debug=True)
+
 
 #@app.route('/artist/<name>/')                                  #This is the flask route to the Artist page
 #def home(name):
