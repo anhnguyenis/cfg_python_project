@@ -1,23 +1,11 @@
 from flask import Flask, render_template                        #The render template function has been added
-from Spotipy_quickstart import get_artist
 from food2fork import get_recipe
 app = Flask(__name__)                                           #name of module
 
-recipes = [                                                     #made up list for testing
-    {
-        'author': 'JK Rowling',
-        'title': 'Chicken in soup',
-    },
-    {
-        'author': 'Stephen Fry',
-        'title': 'Champagne and fromage',
-    }
-]
+from search import LoginForm
+from flask import render_template, flash, redirect
 
-@app.route('/')                                                 #This is the flask route to the Home page
-@app.route('/home/')                                            #Both these routes return back to the Home page by the same function
-def home():
-    return render_template('home.html', recipes=recipes)        #This returns the render template function for the Home page. See home.html file
+app.config['SECRET_KEY'] = 'hfdjskahfdjklsaghfdjkaht'
 
 #def get_recipes():
  #   recipes=get_recipes()
@@ -32,13 +20,19 @@ def about():
 def sign_up():
     return render_template('signup.html', title='Sign up')
 
-
-@app.route('/recipe/<name>/')                                  #This is the flask route to the Artist page
+@app.route('/home/<name>/')                                     #This is the flask route to the Artist page
 def recipe(name):
     recipes = get_recipe(name)
     recipes = recipes["recipes"]
     return render_template('home.html', recipe_name=name, recipes=recipes)
 
+
+@app.route('/search', methods=['GET', 'POST'])
+def login():
+    form = LoginForm()
+    if form.validate_on_submit():
+        return redirect('/home/{}'.format(form.search.data))
+    return render_template('search.html', title='search ingredient', form=form)
 
 if __name__=='__main__':
     app.run(debug=True)
