@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home page</title>
-</head>
-<body>
-<h1>This is the Home page!</h1>
+{% extends "layout.html" %}
+{% block content %}
 
-    {% for recipe in recipes %}                 <!--This opens up a codeblock for recipes data in home.py$-->
-        <h1>{{ recipe.title }}</h1>
-        <p>By {{ recipe.author }}</p>
+    <h1>This is the home page</h1>
+
+    {% for recipe in recipes %}
+        <h1>{{ recipe.title }}</h1>             <!--This opens up a for loop codeblock for recipes data in home.py file-->
+        <p>By {{ recipe.author}}</p>            <!--This opens up a variable from home.py file-->
     {% endfor %}
 
-Suggested artist: {{artist_name}}
+    Suggested artist: {{artist_name}}
 
 
     <p> Want to sign up for email updates? </p>         <!--This adds a contact form for adding email address-->
@@ -22,7 +18,4 @@ Suggested artist: {{artist_name}}
                 <input type="email" id="email" name="email" required="required">
                 <input type="submit" value="Submit" id="submit-button>
 
-        </form>
-    </div id>
-</body>
-</html>
+{% endblock content %}
