@@ -1,9 +1,8 @@
-from flask import Flask, render_template                        #The render template function has been added
-from food2fork import get_recipe
+from flask import Flask, render_template                        #imports render template function from flask
+from food2fork import get_recipe                                #imports the get_recipe function from python file food2fork.py
 app = Flask(__name__)                                           #name of module
-
-from search import LoginForm
-from flask import render_template, flash, redirect
+from search import SearchForm                                   #imports the SearchForm function from python file search.py
+from flask import flash, redirect
 
 app.config['SECRET_KEY'] = 'hfdjskahfdjklsaghfdjkaht'
 
@@ -12,23 +11,23 @@ app.config['SECRET_KEY'] = 'hfdjskahfdjklsaghfdjkaht'
   #  return render_template('home.html', recipes=recipes)
 
 
-@app.route('/about/')                                           #This is the flask route to the About page
+@app.route('/about/')                                           #flask route to the About page
 def about():
-    return render_template('about.html', title='About')         #This returns the render template function for the About page. See about.html file
+    return render_template('about.html', title='About')         #returns the render template function for the about.html file
 
 @app.route('/signup/')
 def sign_up():
     return render_template('signup.html', title='Sign up')
 
-@app.route('/home/<name>/')                                     #This is the flask route to the recipe page
+@app.route('/home/<name>/')                                     #flask route to the recipe.html page
 def recipe(name):
     recipes = get_recipe(name)
     recipes = recipes["recipes"]
     return render_template('home.html', recipe_name=name, recipes=recipes)
 
-@app.route('/search', methods=['GET', 'POST'])                  #This is the flask route to the search page
-def login():
-    form = LoginForm()
+@app.route('/search', methods=['GET', 'POST'])                  #flask route to the search.html page
+def search():
+    form = SearchForm()
     if form.validate_on_submit():
         return redirect('/home/{}'.format(form.search.data))
     return render_template('search.html', title='search ingredient', form=form)
@@ -37,7 +36,7 @@ if __name__=='__main__':
     app.run(debug=True)
 
 
-#@app.route('/artist/<name>/')                                  #This is the flask route to the Artist page
+#@app.route('/artist/<name>/')                                  #flask route to the Artist page
 #def home(name):
     #artist=get_artist(name)
     #return render_template('home.html', artist_name=name)
