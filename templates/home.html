@@ -1,17 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 
-    <h1>This is the home page</h1>
+    <h1>This is the Recipe Generator</h1>
+    <h2>These are recipes containing </h2>
 
     {% for recipe in recipes %}
-        <h1>{{ recipe.title }}</h1>             <!--This opens up a for loop codeblock for recipes data in home.py file-->
+        <h3>{{ recipe.title }}</h3>                 <!--This opens up a for loop codeblock for recipes data in home.py file-->
         <p>By {{ recipe.publisher }}</p>            <!--This opens up a variable from home.py file-->
         <img src=" {{ (recipe.image_url) }}"/>
     {% endfor %}
 
     Suggested artist: {{artist_name}}
     Suggested recipe: {{recipe_name}}
-    
+
 
     <p> Want to sign up for email updates? </p>         <!--This adds a contact form for adding email address-->
         <div id="contact-form">
