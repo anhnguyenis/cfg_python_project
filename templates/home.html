@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>testing</title>
+    <title>Home page</title>
 </head>
 <body>
-{{artist_name}}
+<h1>This is the Home page!</h1>
+
+    {% for recipe in recipes %}                 <!--This opens up a codeblock for recipes data in home.py$-->
+        <h1>{{ recipe.title }}</h1>
+        <p>By {{ recipe.author }}</p>
+    {% endfor %}
+
+Suggested artist: {{artist_name}}
+
+
+    <p> Want to sign up for email updates? </p>         <!--This adds a contact form for adding email address-->
+        <div id="contact-form">
+            <form method="post" action="/signup">
+                <label for="email">Email address:</label><
+                <input type="email" id="email" name="email" required="required">
+                <input type="submit" value="Submit" id="submit-button>
+
+        </form>
+    </div id>
 </body>
 </html>
