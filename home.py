@@ -20,14 +20,13 @@ def about():
 def sign_up():
     return render_template('signup.html', title='Sign up')
 
-@app.route('/home/<name>/')                                     #This is the flask route to the Artist page
+@app.route('/home/<name>/')                                     #This is the flask route to the recipe page
 def recipe(name):
     recipes = get_recipe(name)
     recipes = recipes["recipes"]
     return render_template('home.html', recipe_name=name, recipes=recipes)
 
-
-@app.route('/search', methods=['GET', 'POST'])
+@app.route('/search', methods=['GET', 'POST'])                  #This is the flask route to the search page
 def login():
     form = LoginForm()
     if form.validate_on_submit():
