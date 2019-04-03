@@ -22,7 +22,11 @@ def home():
 @app.route('/about/')                                           #This is the flask route to the About page
 def about():
     #return '<h1>This is the About page</h1>'
-    return render_template('about.html')                        #This returns the render template function for the About page. See about.html file
+    return render_template('about.html', title='About')         #This returns the render template function for the About page. See about.html file
+
+@app.route('/signup/')
+def sign_up():
+    return render_template('signup.html', title='Sign up')
 
 
 if __name__=='__main__':
