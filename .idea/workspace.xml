@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c63472-dc64-48dc-a771-695b1b1772e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cfg_python_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cfg_python_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spotipy_quickstart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,31 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -73,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="32">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#108#0" expanded="true" />
               </folding>
@@ -83,10 +57,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/signup.html">
+        <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -101,10 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layout.html">
+        <entry file="file://$PROJECT_DIR$/templates/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -144,9 +136,10 @@
         <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/food2fork.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/venv/search.py" />
         <option value="$PROJECT_DIR$/templates/search.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/home.py" />
       </list>
     </option>
@@ -180,11 +173,6 @@
               <item name="cfg_python_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="cfg_python_project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cfg_python_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cfg_python_project" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cfg_python_project" type="b2602c69:ProjectViewProjectNode" />
@@ -264,27 +252,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_home" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cfg-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cfg-python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cfg-python/flask_home.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="food2fork" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cfg_python_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,13 +294,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cfg_python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.home_html" />
+        <item itemvalue="Python.search" />
         <item itemvalue="Python.food2fork" />
         <item itemvalue="Python.Spotipy_quickstart" />
         <item itemvalue="Python.Testing" />
-        <item itemvalue="Python.flask_home" />
       </list>
     </recent_temporary>
   </component>
@@ -439,19 +427,54 @@
       <option name="project" value="LOCAL" />
       <updated>1554314024378</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added">
+      <created>1554323021024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554323021024</updated>
+    </task>
+    <task id="LOCAL-00015" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;">
+      <created>1554323707630</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554323707630</updated>
+    </task>
+    <task id="LOCAL-00016" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;&#10;flask route updated">
+      <created>1554323781001</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554323781001</updated>
+    </task>
+    <task id="LOCAL-00017" summary="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;&#10;flask route updated&#10;LoginForm changed to SearchForm on python file search.py">
+      <created>1554324504941</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554324504941</updated>
+    </task>
+    <task id="LOCAL-00018" summary="LoginForm changed to SearchForm on flask route on home.py file">
+      <created>1554324719949</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554324719949</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="1080" width="1440" height="900" extended-state="0" />
+    <frame x="242" y="1108" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77304965" visible="true" weight="0.1761804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77304965" visible="true" weight="0.1761804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.22695035" side_tool="true" weight="0.1761804" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989429" visible="true" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4947146" visible="true" weight="0.2807229" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4947146" visible="true" weight="0.27943262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +499,12 @@
     <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html" />
     <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added" />
     <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;&#10;flask route updated" />
+    <MESSAGE value="routes added to html Homepage, About page and Signup page&#10;Layout.html file added&#10;Block content added for layout&#10;Bootstrap CDN added header to layout.html file and javascript added to body of layout.html&#10;main.CSS file added&#10;navigation bar added from bootstrap&#10;search page added&#10;home page headline changed to &quot;This is the Recipe Generator&quot;&#10;flask route updated&#10;LoginForm changed to SearchForm on python file search.py" />
+    <MESSAGE value="LoginForm changed to SearchForm on flask route on home.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginForm changed to SearchForm on flask route on home.py file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HTML/homepage.html" />
@@ -544,13 +572,6 @@
     <entry file="file://$PROJECT_DIR$/static/main.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/food2fork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -561,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -575,10 +589,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -592,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -601,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="32">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#108#0" expanded="true" />
           </folding>
