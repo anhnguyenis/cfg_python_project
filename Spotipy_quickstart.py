@@ -2,7 +2,6 @@ import spotipy
 from spotipy import oauth2
 from pprint import pprint
 
-
 def get_artist(name):
 
     client_ID = 'e9ddaa3b0c35491b8ab175459ccdf2fe'
@@ -17,6 +16,7 @@ def get_artist(name):
     results = spotify.search(q='artist:{}'.format(name), type='artist')
     #pprint(dir(spotify))
     return (results)
+
 
 
 # import random
