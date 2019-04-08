@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <h1>Recipe Generator</h1>
+    <h2>These are recommended recipes containing: {{recipe_name}}</h2>
+
+        <div class="row">
+            {% for recipe in recipes %}
+                <div class="col-md-3">
+                    <h4>{{ recipe.title }}</h4>                 <!--This opens up a for loop codeblock for recipes data in home.py file-->
+                    <p>By {{ recipe.publisher }}</p>            <!--This opens up a variable from home.py file-->
+                    <img src="{{ recipe.image_url }}" class="img-fluid"  width="300px" height="300px" alt="Responsive image">
+                </div>
+            {% endfor %}
+        </div>
+
+
+
+
+
+{% endblock content %}

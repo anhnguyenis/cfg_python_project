@@ -1,27 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
 
-    <h1>This is the Recipe Generator</h1>
-    <h2>These are recommended recipes containing: {{recipe_name}}</h2>
+    <h1>Welcome to the Recipe Generator</h1>
+    <h3>Here you can choose the ingredients you want to use for a recipe</h3>
 
-<div class="row">
-    {% for recipe in recipes %}
-    <div class="col-md-3">
-        <h3>{{ recipe.title }}</h3>                 <!--This opens up a for loop codeblock for recipes data in home.py file-->
-        <p>By {{ recipe.publisher }}</p>            <!--This opens up a variable from home.py file-->
-        <img src="{{ recipe.image_url }}" class="img-fluid" width="300px" height="300px" alt="Responsive image">
-    </div>
-    {% endfor %}
+    <h4>Click on the search bar to get started</h4>
 
-</div>
-
-
-
-    <p> Want to sign up for email updates? </p>         <!--This adds a contact form for adding email address-->
-        <div id="contact-form">
-            <form method="post" action="/signup">
-                <label for="email">Email address:</label><
-                <input type="email" id="email" name="email" required="required">
-                <input type="submit" value="Submit" id="submit-button>
 
 {% endblock content %}
