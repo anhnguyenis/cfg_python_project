@@ -1,6 +1,6 @@
 .bg-img{
   /* The image used */
-  background-image: url("/static/images/cookingthumbnail.jpg");
+  background-image: url("/static/images/Stirfry.jpg");
 
   min-height: 360px;
 
@@ -12,16 +12,31 @@
   /* Needed to position the navbar */
   position: relative;
 }
+.top{
+margin-top: 20px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
 
+.carousel-caption {
+    top: 0;
+    color: white;
+  }
+.carousel-subheading {
+  font-family: Georgia !important;
+}
 
 body {
   background: #fafafa;
   color: #333333;
   margin-top: 0rem;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
+  font-family: Georgia;
+  font-size: 50px;
 
 }
 
@@ -58,12 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #0099ff;
-  	text-shadow:
-		-1px -1px 0  #99d6ff,
-		1px -1px 0  #99d6ff,
-		-1px 1px 0  #ccff33,
-		1px 1px 0  #ccff33;
+  color: #008000;
   display: block;
   transition: 0.3s;
 }
