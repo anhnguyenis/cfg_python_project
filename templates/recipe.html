@@ -1,19 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 
-    <h1>Recipe Generator</h1>
-    <h2>These are recommended recipes containing: {{recipe_name}}</h2>
+    <h1>These are recommended recipes containing:</h1>
+    <h2> {{recipe_name}}</h2>
 
         <div class="row">
             {% for recipe in recipes %}
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <article class="media content-section">
                         <div class="media-body">
                             <div class="article-metadata">
                                 <a class="mr-2" href="{{ recipe.f2f_url }}">{{ recipe.title }}</a>
-                                <p><small class="text-muted"> {{ recipe.publisher }}</small></p>
-
-                                    <img src="{{ recipe.image_url }}" class="img-fluid" width="auto" height="auto" alt="Responsive image">
+                                <p><small class><a class="text-muted" href="{{ recipe.source_url }}"> {{ recipe.publisher }}</a></small></p>
+                                <img src="{{ recipe.image_url }}" class="img-fluid" width="auto" height="auto" alt="Responsive image">
                             </div>
 
                         </div>

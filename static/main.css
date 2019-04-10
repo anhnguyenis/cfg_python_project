@@ -1,28 +1,89 @@
+.bg-img{
+  /* The image used */
+  background-image: url("/static/images/cookingthumbnail.jpg");
+
+  min-height: 360px;
+
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+
 body {
   background: #fafafa;
   color: #333333;
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #444444;
+
 }
 
 .bg-steel {
   background-color: #5f788a;
 }
 
-.site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+{
+  font-family: 'Lato', sans-serif;
 }
 
-.site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
 }
 
-.site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ff4d4d;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
 
 .content-section {
   background: #ffffff;
@@ -78,3 +139,48 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
