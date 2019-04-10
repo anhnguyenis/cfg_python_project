@@ -58,7 +58,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #4169E1;
+  color: #739900;
+  	text-shadow:
+		-1px -1px 0  #ccff33,
+		1px -1px 0  #ccff33,
+		-1px 1px 0  #ccff33,
+		1px 1px 0  #ccff33;
   display: block;
   transition: 0.3s;
 }
