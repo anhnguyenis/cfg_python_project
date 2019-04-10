@@ -7,9 +7,17 @@
         <div class="row">
             {% for recipe in recipes %}
                 <div class="col-md-3">
-                    <h4>{{ recipe.title }}</h4>                 <!--This opens up a for loop codeblock for recipes data in home.py file-->
-                    <p>By {{ recipe.publisher }}</p>            <!--This opens up a variable from home.py file-->
-                    <img src="{{ recipe.image_url }}" class="img-fluid"  width="300px" height="300px" alt="Responsive image">
+                    <article class="media content-section">
+                        <div class="media-body">
+                            <div class="article-metadata">
+                                <a class="mr-2" href="{{ recipe.f2f_url }}">{{ recipe.title }}</a>
+                                <p><small class="text-muted"> {{ recipe.publisher }}</small></p>
+
+                                    <img src="{{ recipe.image_url }}" class="img-fluid" width="auto" height="auto" alt="Responsive image">
+                            </div>
+
+                        </div>
+                    </article>
                 </div>
             {% endfor %}
         </div>
