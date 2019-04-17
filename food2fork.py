@@ -14,8 +14,5 @@ def get_recipe(ingredient):
 
     recipe = data
 
-    #print(recipe['count'])
-    #print(recipe['recipes'])
-    #pprint(recipe['recipes'])
     return (recipe)
 
