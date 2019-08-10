@@ -50,22 +50,3 @@ def login():
 if __name__=='__main__':
     app.run(debug=True)
 
-
-
-
-
-#@app.route('/artist/<name>/')                                  #flask route to the Artist page
-#def home(name):
-    #artist=get_artist(name)
-    #return render_template('home.html', artist_name=name)
-
-#def get_recipes():
- #   recipes=get_recipes()
-  #  return render_template('home.html', recipes=recipes)
-
-#@app.route('/signup/', methods=["POST"])
-#def sign_up():
-    #form_data = request.form
-    #print (form_data["email"])
-    #return "All OK"
-
